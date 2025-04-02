@@ -38,9 +38,7 @@ const Hero = () => {
           </AnimatedSection>
           
           <AnimatedSection animation="fade-in" delay={700}>
-            <button className="bg-primary hover:bg-primary/90 text-white font-medium py-3 px-8 rounded-full transition-all duration-300 btn-hover-effect">
-              View My Work
-            </button>
+            <a href="#projects" className="bg-primary hover:bg-primary/90 text-white font-medium py-3 px-8 rounded-full transition-all duration-300 btn-hover-effect">View My Work</a>
           </AnimatedSection>
         </div>
       </div>

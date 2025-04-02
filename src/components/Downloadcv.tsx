@@ -10,7 +10,7 @@ const Downloadcv = () => {
     }
   return (
     <section>
-    <button onClick={handleDownload}  className="bg-primary hover:bg-primary/90 text-white font-medium py-3 px-8 rounded-full transition-all duration-300 btn-hover-effect">Download CV</button>
+    <button onClick={handleDownload}  className="bg-primary hover:bg-primary/90 text-white font-medium py-2 px-8 rounded-full transition-all duration-300 btn-hover-effect">Download CV</button>
 </section>
   )
 }
